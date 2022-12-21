@@ -1,0 +1,6 @@
+.navbar-nav .nav-item span {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 30px 13px;
+    transition: 0.3s;
+}
