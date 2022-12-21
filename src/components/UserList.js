@@ -33,8 +33,8 @@ const UserList = () => {
                                 <PulseLoader style={{ margin: "8px 0 0 0px" }} color="red" size="8px" />
                             </span>
                         </div> :
-                        <table className='table'>
-                            <thead>
+                        <table className='table table-bordered' style={{ border: '1px solid lightGray' }}>
+                            <thead style={{ background: 'lightGray' }}>
                                 <tr className='text-center'>
                                     <th>#</th>
                                     <th>Name</th>
